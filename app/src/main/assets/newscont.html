@@ -1,0 +1,29 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,user-scalable=no">
+    <link href="./css/news_qa.min.css" rel="stylesheet">
+    <script src="./js/template.js"></script>
+    <!--<script src="zepto.min.js"></script>-->
+    <script src="./js/‰img_replace.js"></script>
+    <!--<script src="video.js"></script>-->
+
+    <script id="contenttpl" type="text/html">
+        {{#body}}
+    </script>
+
+</head>
+<body className="" onload="onLoaded()">
+
+<div id="contentTop"></div>
+
+<script>
+    var data = JSON.parse(window.bazhang.getNewsData());
+    var html = template('contenttpl', data);
+    console.log(html);
+    document.getElementById('contentTop').innerHTML = html;
+</script>
+
+</body>
+</html>
