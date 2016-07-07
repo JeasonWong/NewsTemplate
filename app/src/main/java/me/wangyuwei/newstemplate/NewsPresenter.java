@@ -86,7 +86,6 @@ public class NewsPresenter {
         return json;
     }
 
-
     public interface INewsView {
 
         void loadSuccess();
