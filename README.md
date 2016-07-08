@@ -42,8 +42,8 @@ mWebNews.loadUrl("file:///android_asset/newscont.html");
 
 ###预览
 ![Markdown](http://i4.piimg.com/1070/a12ea34b00b582e9.gif)
-![Markdown](http://i4.piimg.com/1070/d52360f6efd45715.png =270x480)
-![Markdown](http://i4.piimg.com/1070/c98ec8fd14931024.png =270x480)
+<img src="http://i4.piimg.com/1070/d52360f6efd45715.png" width = "270" height = "480" align=center />
+<img src="http://i4.piimg.com/1070/c98ec8fd14931024.png" width = "270" height = "480" align=center />
 
 ###**Lincense**
 ```lincense
