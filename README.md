@@ -41,7 +41,7 @@ mWebNews.loadUrl("file:///android_asset/newscont.html");
  - [fastjson](https://github.com/alibaba/fastjson)
 
 ###预览
-![Markdown](http://i4.piimg.com/1070/a12ea34b00b582e9.gif)
+<img src="http://i4.piimg.com/1070/a12ea34b00b582e9.gif" width = "270" height = "480" align=center />
 <img src="http://i4.piimg.com/1070/d52360f6efd45715.png" width = "270" height = "480" align=center />
 <img src="http://i4.piimg.com/1070/c98ec8fd14931024.png" width = "270" height = "480" align=center />
 
