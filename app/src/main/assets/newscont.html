@@ -19,7 +19,6 @@
 <script>
     var data = JSON.parse(window.bazhang.getNewsData());
     var html = template('contenttpl', data);
-    console.log(html);
     document.getElementById('contentTop').innerHTML = html;
 </script>
 

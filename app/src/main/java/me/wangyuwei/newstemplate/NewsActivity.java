@@ -6,7 +6,6 @@ import android.support.v7.app.AppCompatActivity;
 import android.webkit.JavascriptInterface;
 import android.webkit.WebView;
 import android.webkit.WebViewClient;
-import android.widget.ImageView;
 import android.widget.Toast;
 
 import com.github.ksoichiro.android.observablescrollview.ObservableScrollView;
@@ -17,7 +16,6 @@ import com.nineoldandroids.view.ViewHelper;
 
 import butterknife.BindView;
 import butterknife.ButterKnife;
-import me.wangyuwei.newstemplate.manager.ImageLoader;
 import me.wangyuwei.newstemplate.model.NewsEntity;
 
 import static android.widget.Toast.LENGTH_SHORT;
@@ -28,8 +26,8 @@ public class NewsActivity extends AppCompatActivity implements NewsPresenter.INe
     ObservableScrollView mScrollViewNews;
     @BindView(R.id.web_news)
     ObservableWebView mWebNews;
-    @BindView(R.id.img_news_header)
-    ImageView mImgNewsHeader;
+    @BindView(R.id.view_header)
+    NewsHeaderView mViewHeader;
 
     private NewsPresenter mPresenter;
     private boolean mDragging;
@@ -60,7 +58,7 @@ public class NewsActivity extends AppCompatActivity implements NewsPresenter.INe
     @Override
     public void loadSuccess(NewsEntity newsEntity) {
         mWebNews.loadUrl("file:///android_asset/newscont.html");
-        ImageLoader.load(newsEntity.getImage(), mImgNewsHeader);
+        mViewHeader.setHeaderData(newsEntity);
     }
 
     /**
@@ -78,7 +76,7 @@ public class NewsActivity extends AppCompatActivity implements NewsPresenter.INe
         @Override
         public void onScrollChanged(int scrollY, boolean firstScroll, boolean dragging) {
             if (mDragging) {
-                ViewHelper.setTranslationY(mImgNewsHeader, scrollY / 2);
+                ViewHelper.setTranslationY(mViewHeader, scrollY / 2);
             }
         }
 

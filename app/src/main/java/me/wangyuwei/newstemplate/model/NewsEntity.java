@@ -7,7 +7,6 @@ import java.util.List;
  */
 public class NewsEntity {
 
-
     /**
      * body : <div class="main-wrap content-wrap">
      <div class="headline">
@@ -22,57 +21,62 @@ public class NewsEntity {
 
 
 
-
      <div class="question">
-     <h2 class="question-title">为什么很多游戏双方阵营分为红蓝两个颜色？</h2>
-
+     <h2 class="question-title"></h2>
      <div class="answer">
 
      <div class="meta">
-     <img class="avatar" src="http://pic1.zhimg.com/4ff99cab4_is.jpg">
-     <span class="author">Thinkraft，</span><span class="bio">Obsessive-Compulsive-Personality-Disorde</span>
+     <img class="avatar" src="http://pic2.zhimg.com/6b7f5bea0849229d5344a43be6d174d1_is.jpg">
+     <span class="author">王写写，</span><span class="bio">微信公号：PictureWriter。只爱写作</span>
      </div>
 
      <div class="content">
-     <p>红色由于其醒目特点，经常用来表示敌人或危险。</p>
-     <p><strong>现实生活中的军事演习就是用红蓝两色分别代表敌我双方</strong>，美国的习惯中，蓝色是盟军 / 主队 / 防守方，红色是敌军 / 客队 / 进攻方（中国则相反）。</p>
-     <p>游戏中<strong>除了红蓝以外还有一种经典配色是红绿</strong>，应用也非常广泛，但<strong>用红绿区分敌友有个很严重的问题是对残障人士不友好。</strong>男性中有 8%~9%的人是不同程度的色盲或色弱，其中绝大部分表现为无法或难以分辨红绿色。</p>
-     <p><img class="content-image" src="http://pic1.zhimg.com/70/0fa058edd0b40a6ee2b79c37cb6c38a8_b.jpg" alt="" /></p>
-     <p>我本人不是色盲没法体验，但根据一些文献提供的图片来看，似乎患者眼中的红色到绿色之间的全部颜色都是暗黄色。</p>
+     <p>徐皓峰曾在书中写道：&ldquo;电影呈献给观众的不应是道德的是非，而应是道德的困境，如此生活才能进步。高级的叙事艺术是混淆是非的，电影是视听的叙事艺术，所以人类发明电影不是为了看明星，而是审视自身。&rdquo;</p>
+     <p>加文&middot;胡德的《天空之眼》就是这样一部&ldquo;呈现道德困境&rdquo;的杰出作品。</p>
+     <p><img class="content-image" src="https://pic3.zhimg.com/f04b4359e669489c15b60b73fc03cdc2_b.jpg" alt="" /></p>
+     <p>它表达的命题紧扣时代之脉，与人类文明本身息息相关。因此《天空之眼》从某种程度来说，具有永恒的价值。不管这个价值是高还是低，它提出的道德困境具有深刻的哲学意味，已足够引人深思。</p>
+     <p>我们可能是坐在写字楼里喝咖啡的白领，也可能是在田园中耕作的农民，但每个看过影片的人都应该意识到，其中的故事随时都在我们身边发生，尽管可能是以不同的形态。在道德困境的层面下，影片更深的主题是提醒世人：和平总是岌岌可危的。决策者坐在安全的办公室里，随时可以摧毁一个家庭的安宁&mdash;&mdash;哪怕他们与你在一秒前还素不相识。</p>
+     <p><img class="content-image" src="https://pic2.zhimg.com/efeae182825c87a555e8e29dba930715_b.jpg" alt="" /></p>
+     <p>电影讲述了一个发生在数小时内的反恐行动。导演没有渲染过多的行动场面，他不会为了视觉快感而背离现实。电影的名字已经充分点出了核心要素，这就是盘旋在云端之上的无人机。《天空之眼》将这架携带地狱火导弹的冷酷杀人机器拍出了令人胆寒的效果。</p>
+     <p>影片利用反恐战争背后的决策事件，来体现战争的残忍无情。正如电影开头黑底白字所说的：在战争中，真相是第一个牺牲品。古希腊悲情诗人埃斯库罗斯的这句名言，不仅成为影片的情感主旨，点出了战争的本质，同时也暗示着故事是一个毁灭性的悲剧。</p>
+     <p>影片视角辗转于英国白厅和眼镜蛇总部、伦敦联合指挥部、美国内华达州空军基地、新加坡国际贸易武器展、以及中国乒乓球队的某处训练基地。镜头毫不偷懒，事无巨细地描绘着英美两国的高层官员，如何策划用无人机刺杀五名准备发动自杀式爆炸袭击的恐怖分子，以及附带伤害一名无辜的小女孩。</p>
+     <p>为了突出悲剧性，影片前段还着重描绘了小女孩一家的普通生活。镜头首先摆放在这个位于肯尼亚内罗毕的家中，随后跟随小姑娘卖馕的路径，将视野渐渐升高，直至变为无人机摄像头。电影通过镜头语言建立了一种由微观到宏观、由主观到客观、由个体至群体的视听系统。</p>
+     <p><img class="content-image" src="https://pic4.zhimg.com/280f007872803069d578cc1696caf7df_b.jpg" alt="" /></p>
+     <p>在这个合理的系统内，影片于宏观叙事至细节展现上收放自如，富有韵律的叙事，令每一场戏都张力十足，扣人心弦。电影在类型片的流程中，剪辑、调度、表演和情感描绘几乎做到了无懈可击。充满矛盾的各方决策，通过巧妙的镜头运动和交叉剪辑，带来精妙的叙事节奏，从而并没有令主要由室内戏构成的故事显得沉闷。</p>
+     <p>紧凑的剧情充分调动着观众的情绪，令人随着故事的层层推进而不断思考：这样做是否正确？这个人物的立场是否合理？但最终，观众发现无论如何，整个反恐行动都无法做到完满。要么恐怖分子行动得逞，炸死至少八十多人，要么无辜小女孩面临突如其来的死亡&mdash;&mdash;这是类似于&ldquo;电车困境&rdquo;的道德命题。导演的高明之处在于，体现出了这种悲剧性的两面都不可避免，从而引出战争的残酷真相。于是到最后，当导弹落下时，真相也就随之牺牲了。</p>
+     <p><img class="content-image" src="https://pic3.zhimg.com/9d6834e53822cba5e5a13591b224df66_b.jpg" alt="" /></p>
+     <p>加文&middot;胡德的调度功力体现在各个场景的编排之间，这是另一个高明的地方。众所周知，群戏是相当难拍的，容易混乱。《天空之眼》中的出场人物非常多，但每个都被表现得有血有肉，哪怕是龙套，也有着自己的性格和立场。这说明，导演对每个角色的分寸感拿捏得很到位。</p>
+     <p>海伦&middot;米伦扮演的英军上校，代表着激进的一方。她追踪了恐怖组织青年党数年，好不容易逮到了其中的高层，自然不肯因为一个小女孩就此罢休。但通过影片，我们能体会到，海伦也有着自己理性的判断，并非全然冷酷无情。另一边，小粉扮演的无人机操作员，通过与新人凯莉的几句对话，就能显出其为一个人情味很浓的士兵，也为后面犹豫不决没有立刻发射导弹埋下伏笔。至于给女儿买娃娃的艾伦&middot;里克曼、坐在马桶上参与决策的英国外交大臣，甚至拜访中国热情打乒乓球的美国国务卿，都是十足的政客嘴脸，充满了讽刺意味。</p>
+     <p>影片有一众角色的出色表演，戏剧性自然生动十足。而其中的点睛之笔自然是红衣小女孩。同样为了形成战争的摧毁性，影片加入了一个强烈的对比，即无人机的暴力和小女孩的纯真可爱。电影通过无人机摄像头的插件视角，将焦点放置在玩呼啦圈的小女孩身上，小女孩肢体动作的美感被无限放大，与之后的攻击形成强烈发差。这一幕成了我近期看过最震撼人心的上帝视角。</p>
+     <p><img class="content-image" src="https://pic3.zhimg.com/d9ce270d3886d15d7362dd0ac9f20016_b.jpg" alt="" /></p>
+     <p>提到恐怖主义，自然能联想到极端宗教信仰、落后国家的生存状态、西方军事打击的争议性、以及白人参与恐怖活动等全球现象。《天空之眼》也一个不落的把这些点了出来。影片中，反恐行动的目标是三位青年党高层，分别位列全球通缉名单的二、四、五位。有意思的是，这三个人都是英美公民，导演的意图不言而喻。而通过剧情的安排，这次反恐行动也成为了西方世界政治图景的一个缩影。</p>
+     <p>在如此的道德困境下，每个人物都有着自己的态度。影片以各种实时通信手段，作为交叉剪辑的次序，具有强烈的临场感。不断变换的视角，使得观众从最初的旁观者，渐渐通过那些贴近现实的细节，仿佛置身于这些幕僚的场景内，代入感因此而生。实际上，影片中多数人物，也都以旁观者这一身份符号做着决断，这就为观众的移情心理铺平道路。</p>
+     <p>电影并没有任何倾向性，它抛出了这个道德命题，向影片中的所有人物发难，同时也是在向观众发难，观众进而成为这群拥有不同立场的决策者的一部分。而结尾的冰冷事实，不仅体现了不可逆转的无力感，也明示了道德层面的无解，和战争的冷酷本质。</p>
+     <p>因而，《天空之眼》具有永恒价值。从电影语言来讲，每个环节都完美无瑕，情节入胜，氛围到位。从情感主题来讲，它是一次对人性的拷问和质疑，也是对任何形态的战争一种驳斥和控诉。它故事背后的痛苦具有无法争辩的、刻骨铭心的力量。催人泪下、引人深思。</p>
+     <p>最后，这是艾伦&middot;里克曼生前的遗作。通过本片再次缅怀他吧。</p>
+     <p><img class="content-image" src="https://pic2.zhimg.com/86800cb22e8e2f7047d42943a95b77f9_b.jpg" alt="" /></p>
      <hr />
-     <p>从 WC3 和 WOW 开始玩暴雪的人，可能会有一种蓝色联盟对战红色部落的感觉。确实 WC1 就是这样的，不过在 WC2 的设定中，联盟或部落内部的各个国家 / 氏族都有自己的主题色。例如艾泽拉斯 / 暴掠是蓝色、洛丹伦 / 龙喉是白色、激流堡 / 黑石是红色、达拉然 / 暮光之锤是紫色等。</p>
-     <p>这里顺便说说 RTS。</p>
-     <p>古典流派例如 Dune2、CoC 等西木系是全部如实显示，玩家用什么颜色小地图上就显示什么颜色。Dune2000 和 CoC 中，甚至小地图不是一出生就有的，要发展出特定科技以后才可以点亮。</p>
-     <p>比较有趣的是 AoE，选中的单位会在小地图上显示成白色，其它保持阵营色。菱形地图也是特色之一。当年大家都在探索游戏该怎么设计，真正玩明白的是少数。</p>
-     <p>以 WC、SC 为代表的暴雪改良系走的则是另一条路线，开始强调在小地图上区分自敌。</p>
-     <p><img class="content-image" src="http://pic2.zhimg.com/70/7154e6e503ce83649977b35b6b03d429_b.jpg" alt="" /></p>
-     <p>WC1 的小地图主基地是黄色、自军其它建筑单位绿色，敌军红色；WC2 开始支持 8 人游戏，小地图自军锁绿色外，敌军其它颜色照常；SC 进一步增强，自军锁绿色，其它势力可以如实显示也可以设置成盟友黄色敌军红色。</p>
-     <p>前面说过红绿色盲的问题，WC3 放弃了绿色，改用白色标记自军、友军也从黄色改成了亮青色（红色的补色）。单从小地图上看似乎是改进了，但我并不觉得暴雪是重视这个问题&mdash;&mdash;摆放建筑的时候那个网格依然是使用红绿显示，色盲玩家无法分辨哪里能造哪里不能造。更神奇的是后来的 SC2，居然又倒退回了 SC 时代的配色，并且隔了三年才在资料篇中加入了色盲模式。</p>
-     <p><img class="content-image" src="http://pic1.zhimg.com/70/54996321186460d9198f9f81316a7594_b.jpg" alt="" /></p>
-     <p>SC2 制作人 Chris Sigaty 本人就患有色盲&hellip;&hellip;然并卵，色盲模式还是被当成「低优先级」功能。</p>
-     <p>DotA 双方阵营的塔分别是红色和暗绿色，这是因为 WC3 的玩家配色清单中，1 号位和 7 号位正好是这两个颜色，将鲜艳色和黯淡色分开。</p>
-     <p>至于 LOL，两个阵营一开始并不是题主说的蓝色和红色，而是蓝色和紫色。后来才改过来的，美区还有一些玩家抗议。LOL 很早的版本就有色盲模式，要通过手动修改配置文件才可以开启，后来全面改进后正式放到游戏选项中了。这个做得还可以，除了友军血条从绿色改成蓝色外，技能指示器、英雄皮肤等影响视觉的东西都有所调整。不知道色盲玩家能不能满意。</p>
-     <p>真正大量应用蓝色 VS 红色的是 FPS，在游戏中的应用可以追溯回 Quake 年代。后来的 CS 什么的你们都知道了。守望屁股只是沿袭习惯而已。</p>
+     <p><strong>本文首发于微信号：论戏书影（PictureWriter），一个敬畏艺术，热情写作的地方</strong></p>
+
+     <div class="view-more"><a href="http://zhuanlan.zhihu.com/p/21467340">查看知乎讨论</a></div>
+
      </div>
      </div>
-
-
-     <div class="view-more"><a href="http://www.zhihu.com/question/48158076">查看知乎讨论<span class="js-question-holder"></span></a></div>
-
      </div>
 
 
      </div>
      </div>
-     * image_source : K
-     * title : 游戏里用红绿两色来分阵营，色盲的玩家不高兴了
-     * image : http://pic2.zhimg.com/391829c155065537a01e76f0d72a84a9.jpg
-     * share_url : http://daily.zhihu.com/story/8529781
+     * image_source : Eye in the Sky
+     * title : 最近的失望之作让人失血过多，而这部就像颗速效救心丸
+     * image : http://pic1.zhimg.com/fc8f278c50138b16ecfa18edc722fad0.jpg
+     * share_url : http://daily.zhihu.com/story/8543021
      * js : []
-     * ga_prefix : 070615
-     * images : ["http://pic3.zhimg.com/348f3cafcfeb40c8d53417f4fed5ec3e.jpg"]
+     * ga_prefix : 070821
+     * section : {"thumbnail":"http://pic1.zhimg.com/768ce022a42dfa23844d22aeb49b509c.jpg","id":28,"name":"放映机"}
+     * images : ["http://pic1.zhimg.com/768ce022a42dfa23844d22aeb49b509c.jpg"]
      * type : 0
-     * id : 8529781
+     * id : 8543021
      * css : ["http://news-at.zhihu.com/css/news_qa.auto.css?v=4b3e3"]
      */
 
@@ -82,6 +86,13 @@ public class NewsEntity {
     private String image;
     private String share_url;
     private String ga_prefix;
+    /**
+     * thumbnail : http://pic1.zhimg.com/768ce022a42dfa23844d22aeb49b509c.jpg
+     * id : 28
+     * name : 放映机
+     */
+
+    private SectionEntity section;
     private int type;
     private int id;
     private List<?> js;
@@ -136,6 +147,14 @@ public class NewsEntity {
         this.ga_prefix = ga_prefix;
     }
 
+    public SectionEntity getSection() {
+        return section;
+    }
+
+    public void setSection(SectionEntity section) {
+        this.section = section;
+    }
+
     public int getType() {
         return type;
     }
@@ -174,5 +193,35 @@ public class NewsEntity {
 
     public void setCss(List<String> css) {
         this.css = css;
+    }
+
+    public static class SectionEntity {
+        private String thumbnail;
+        private int id;
+        private String name;
+
+        public String getThumbnail() {
+            return thumbnail;
+        }
+
+        public void setThumbnail(String thumbnail) {
+            this.thumbnail = thumbnail;
+        }
+
+        public int getId() {
+            return id;
+        }
+
+        public void setId(int id) {
+            this.id = id;
+        }
+
+        public String getName() {
+            return name;
+        }
+
+        public void setName(String name) {
+            this.name = name;
+        }
     }
 }

@@ -9,11 +9,10 @@
         android:layout_height="match_parent"
         android:orientation="vertical">
 
-        <ImageView
-            android:id="@+id/img_news_header"
+        <me.wangyuwei.newstemplate.NewsHeaderView
+            android:id="@+id/view_header"
             android:layout_width="match_parent"
-            android:layout_height="@dimen/header_view_height"
-            android:src="@mipmap/ic_launcher" />
+            android:layout_height="@dimen/header_view_height" />
 
         <com.github.ksoichiro.android.observablescrollview.ObservableWebView
             android:id="@+id/web_news"
