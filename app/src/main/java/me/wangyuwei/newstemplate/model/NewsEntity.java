@@ -1,4 +1,4 @@
-package me.wangyuwei.newstemplate;
+package me.wangyuwei.newstemplate.model;
 
 import java.util.List;
 

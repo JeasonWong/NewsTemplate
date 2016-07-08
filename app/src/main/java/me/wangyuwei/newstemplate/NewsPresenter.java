@@ -10,9 +10,12 @@ import org.json.JSONObject;
 import java.io.IOException;
 import java.io.InputStream;
 
+import me.wangyuwei.newstemplate.model.NewsEntity;
 import rx.Observable;
+import rx.android.schedulers.AndroidSchedulers;
 import rx.functions.Action1;
 import rx.functions.Func1;
+import rx.schedulers.Schedulers;
 
 /**
  * 作者： 巴掌 on 16/7/6 21:23
@@ -34,17 +37,19 @@ public class NewsPresenter {
                         return JSON.parseObject(s, NewsEntity.class);
                     }
                 })
+                .observeOn(AndroidSchedulers.mainThread())
                 .map(new Func1<NewsEntity, String>() {
                     @Override
                     public String call(NewsEntity newsEntity) {
+                        mView.loadSuccess(newsEntity);
                         return createDataJson(newsEntity);
                     }
                 })
+                .observeOn(Schedulers.io())
                 .subscribe(new Action1<String>() {
                     @Override
                     public void call(String s) {
                         mNewsData = s;
-                        mView.loadSuccess();
                     }
                 }, new Action1<Throwable>() {
                     @Override
@@ -88,7 +93,7 @@ public class NewsPresenter {
 
     public interface INewsView {
 
-        void loadSuccess();
+        void loadSuccess(NewsEntity newsEntity);
 
     }
 
