@@ -41,7 +41,9 @@ mWebNews.loadUrl("file:///android_asset/newscont.html");
  - [fastjson](https://github.com/alibaba/fastjson)
 
 ###预览
-![Markdown](http://i4.piimg.com/1070/7da4752a895b7c64.gif)
+![Markdown](http://i4.piimg.com/1070/a12ea34b00b582e9.gif)
+![Markdown](http://i4.piimg.com/1070/d52360f6efd45715.png =270x480)
+![Markdown](http://i4.piimg.com/1070/c98ec8fd14931024.png =270x480)
 
 ###**Lincense**
 ```lincense
