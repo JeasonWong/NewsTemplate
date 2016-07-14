@@ -7,20 +7,25 @@
     <script src="./js/template.js"></script>
     <script src="./js/img.js"></script>
 
+    <script>
+    window.bazhang.getNewsData();
+    function onDataReceived(args){
+    var json=JSON.stringify(args);
+    var data = JSON.parse(json);
+    var html = template('contenttpl', data);
+    document.getElementById('contentTop').innerHTML = html;
+    }
+
+</script>
     <script id="contenttpl" type="text/html">
         {{#body}}
     </script>
+
 
 </head>
 <body className="">
 
 <div id="contentTop"></div>
-
-<script>
-    var data = JSON.parse(window.bazhang.getNewsData());
-    var html = template('contenttpl', data);
-    document.getElementById('contentTop').innerHTML = html;
-</script>
 
 </body>
 </html>
