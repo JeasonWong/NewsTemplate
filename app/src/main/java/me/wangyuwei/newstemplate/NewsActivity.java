@@ -40,7 +40,9 @@ public class NewsActivity extends AppCompatActivity implements NewsPresenter.INe
 
         mScrollViewNews.setScrollViewCallbacks(mScrollViewScrollCallbacks);
         mWebNews.setScrollViewCallbacks(mWebViewScrollCallbacks);
-
+        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.KITKAT) {
+            WebView.setWebContentsDebuggingEnabled(true);
+        }
         mWebNews.getSettings().setJavaScriptEnabled(true);
         mWebNews.addJavascriptInterface(this, "bazhang");
         mWebNews.setWebViewClient(new WebViewClient() {
@@ -51,14 +53,20 @@ public class NewsActivity extends AppCompatActivity implements NewsPresenter.INe
             }
         });
 
+        mWebNews.loadUrl("file:///android_asset/newscont.html");
         mPresenter = new NewsPresenter(this);
-        mPresenter.loadNewsData();
     }
 
     @Override
     public void loadSuccess(NewsEntity newsEntity) {
-        mWebNews.loadUrl("file:///android_asset/newscont.html");
         mViewHeader.setHeaderData(newsEntity);
+    }
+
+    @Override
+    public void loadNewsData(String args) {
+
+        String javascrpit = String.format("javascript:onDataReceived(%s)", args);
+        mWebNews.loadUrl(javascrpit);
     }
 
     /**
@@ -108,8 +116,8 @@ public class NewsActivity extends AppCompatActivity implements NewsPresenter.INe
     };
 
     @JavascriptInterface
-    public String getNewsData() {
-        return mPresenter.getNewsData();
+    public void getNewsData() {
+        mPresenter.loadNewsData();
     }
 
     @JavascriptInterface

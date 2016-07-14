@@ -15,7 +15,6 @@ import rx.Observable;
 import rx.android.schedulers.AndroidSchedulers;
 import rx.functions.Action1;
 import rx.functions.Func1;
-import rx.schedulers.Schedulers;
 
 /**
  * 作者： 巴掌 on 16/7/6 21:23
@@ -42,14 +41,17 @@ public class NewsPresenter {
                     @Override
                     public String call(NewsEntity newsEntity) {
                         mView.loadSuccess(newsEntity);
-                        return createDataJson(newsEntity);
+                        mNewsData = createDataJson(newsEntity);
+                        mView.loadNewsData(mNewsData);
+                        return mNewsData;
                     }
                 })
-                .observeOn(Schedulers.io())
+                .observeOn(AndroidSchedulers.mainThread())
                 .subscribe(new Action1<String>() {
                     @Override
                     public void call(String s) {
-                        mNewsData = s;
+                        // mNewsData = s;
+
                     }
                 }, new Action1<Throwable>() {
                     @Override
@@ -95,6 +97,7 @@ public class NewsPresenter {
 
         void loadSuccess(NewsEntity newsEntity);
 
+        void loadNewsData(String args);
     }
 
 }
